@@ -11,6 +11,18 @@ In conducting this analysis, students like myself were assigned points from Kasp
 
 ## Sampling Plan and Data Description
 
-As stated earlier, each student conducting this analysis was assigned a data point from Kasprak's analysis in the CHaMPs data. My designated location was at loc_id=4
+As stated earlier, each student conducting this analysis was assigned a data point from Kasprak's analysis in the CHaMPs data. My designated location was at loc_id=4, and two sampled points existed, from which I chose at random.
 
 ## Materials and Procedure  
+
+In performing this analysis, we followed workflows pre-prepared by ASU Geography PhD candidate Zach Hilgendorf in collaboration with Middlebury College assistant professor Joseph Holler, working in both GRASS GIS and RStudio. The workflow followed in grass is linked [here](https://github.com/evankilli/RE-rosgen/blob/main/procedure/protocols/1-Research_Protocol_GRASS.pdf), the code run in RStudio is linked [here](https://github.com/evankilli/RE-rosgen/blob/main/procedure/code/2-ProfileViewer.Rmd), and the instructions for running the code in RStudio and eventually classify the stream at the assigned point are provided [here](https://github.com/evankilli/RE-rosgen/blob/main/procedure/protocols/3-Classifying.pdf).
+
+Unfortunately, in working with Prof. Holler and other students enrolled in this course, we discovered that we were unable to properly unzip the DEM data, requiring the use of a tool like [Unarchiver](https://theunarchiver.com/), and issues arose installing tools within RStudio, requiring the installation of [XCode](https://developer.apple.com/download/more/?=for%20Xcode) within Apples developer tools.
+
+Some tools created by Prof. Holler used in this analysis are included here:
+- [Centerlines tool](procedure/code/center_line_length_no_clip.gxm)
+  - note: due to strange geography of the river at the assigned study site, a center line tool that *does not clip* is used here, requiring extra attention to ensure comparable lengths for the valley and stream centerlines. An additional tool that *does clip* can be found [here](procedure/code/center_line_length.gxm)
+
+## Replication Results
+
+STILL MUST FINISH
